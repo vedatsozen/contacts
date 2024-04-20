@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --yazi1:white;
+}
+
+body {
+    text-align: center;
+    padding: 0px;
+    margin: auto 0;
+    background-image: url("imgs/arkaplan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
+    font-style: normal;
+  }
+
+select {
+    margin: auto;
+    margin-top: 20px;
+    height: 50px;
+    width:200px;
+    cursor: pointer;
+    text-align: center;
+}
+
+select > option {
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px !important;
+}
+
+#kisicard {
+    margin: auto;
+    margin-top: 30px;
+    height:fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    padding:10px 25px;
+    display: none;
+}
+
+#kisicard > h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin: auto;
+    padding: 10px;
+    color: var(--yazi1);
+
+}
+
+#kisicard > img {
+    height: 300px;
+    width:500px;
+    box-shadow: 0 0 20px black;
+    border-radius: 5px;
+}
+
+#kisicard > h2 {
+    margin: auto;
+    font-size:25px;
+    letter-spacing: 5px;
+    margin: auto;
+    margin-top: 5px;
+    color: var(--yazi1);
+ 
+
+}
