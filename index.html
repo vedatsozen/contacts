@@ -8,7 +8,6 @@
 </head>
 <body>
     
-
 <select id="selectid">
     <option value="">Choose Contact</option>
     <option value="Ahmet" >Ahmet</option>
@@ -20,7 +19,11 @@
  
 </div>
 
+
+
 <script>
+
+alert("Please choose a contact to see his/her information.")
 
 let kisiler = [
     {
@@ -72,7 +75,13 @@ document.getElementById("kisicard").innerHTML = `
 })
 })
 
+function openexplanation() {
 
+document.getElementById("explanation").style.display = "block";
+
+}
+
+setTimeout(openexplanation,100);
 </script>
 
 

@@ -26,18 +26,21 @@ body {
 select {
     margin: auto;
     margin-top: 20px;
-    height: 50px;
-    width:200px;
+    height:50px;
+    width:fit-content;
     cursor: pointer;
     text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
 }
 
 select > option {
-    height: 50px;
-    width: 200px;
+    height:70px;
+    width:350px;
     margin: auto;
     text-align: center;
-    padding: 20px !important;
+    font-size: 20px;
+    letter-spacing: 5px;
 }
 
 #kisicard {
@@ -49,9 +52,10 @@ select > option {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color:black;
     padding:10px 25px;
     display: none;
+    z-index:100;
 }
 
 #kisicard > h1 {
@@ -68,6 +72,7 @@ select > option {
     width:500px;
     box-shadow: 0 0 20px black;
     border-radius: 5px;
+    z-index:100;
 }
 
 #kisicard > h2 {
@@ -79,4 +84,26 @@ select > option {
     color: var(--yazi1);
  
 
+}
+
+
+
+
+button#kapat {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    letter-spacing: 5px;
+
+
+}
+
+button#kapat:active {
+    transform: scale(0.9);
 }
